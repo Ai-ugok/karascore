@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  /* 同要素のheightと同じ値を設定することで、高さにおいて真ん中に配置可 */
+  line-height: 80px;
+  font-size: 50px;
+  color: white;
+  background-color: skyblue;
+}
+
+.gnr {
+  width: 30%;
+  margin: 30px 60px;
+  padding: 20px;
+  background-color: azure;
+}
